@@ -57,6 +57,14 @@ function Header() {
                   <i className="fas fa-envelope"></i> Contact
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link 
+                  className={`nav-link ${location.pathname === '/localdb' ? 'active' : ''}`} 
+                  to="/localdb"
+                >
+                  <i className="fas fa-envelope"></i> LocalDB
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
