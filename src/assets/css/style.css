@@ -1,0 +1,97 @@
+/* Apply Google Font to the whole site */
+body {
+    font-family: 'Roboto', sans-serif; /* Use the custom font */
+    background-color: antiquewhite; /* Light beige background for the body */
+}
+
+/* Custom Navbar Styles */
+.custom-navbar {
+    background-color: #003366; /* Dark blue background for navbar */
+}
+
+.custom-navbar .navbar-brand {
+    color: #ffffff; /* White color for brand */
+    font-family: 'Roboto', sans-serif; /* Apply custom font */
+}
+
+.custom-navbar .nav-link {
+    color: #ffffff; /* White color for links */
+    font-family: 'Roboto', sans-serif; /* Apply custom font */
+}
+
+.custom-navbar .nav-link:hover {
+    color: #007bff; /* Light blue color on hover */
+    background-color: #e9ecef; /* Light background on hover */
+    border-radius: 5px; /* Rounded corners on hover */
+}
+
+.custom-navbar .nav-link.active {
+    color: #ffffff; /* White color for active link text */
+    background-color: #0056b3; /* Darker blue for active link background */
+    border-radius: 5px; /* Rounded corners for active link */
+}
+
+/* Hero Section */
+header {
+    background-color: #003366; /* Dark blue background */
+}
+
+header .btn-light {
+    color: #003366; /* Dark blue text */
+    border-color: #003366; /* Dark blue border */
+}
+
+header .btn-light:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    color: #ffffff; /* White text on hover */
+}
+
+/* Features Section */
+section.py-5 {
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+/* Custom Styles for Cards with Images */
+.card-img-top {
+    height: 200px; /* Adjust as needed */
+    object-fit: cover; /* Ensures the image covers the card area */
+  }
+  
+
+/* Call-to-Action Section */
+.bg-light {
+    background-color: #e9ecef; /* Light gray background */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Primary blue button color */
+    border-color: #007bff; /* Button border color */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    border-color: #0056b3; /* Darker blue border on hover */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #003366; /* Dark blue background */
+    color: #ffffff; /* White text */
+    font-family: 'Roboto', sans-serif; /* Apply custom font */
+}
+
+footer a {
+    color: #343a40; /* White color for links */
+}
+
+footer a:hover {
+    color: #00aaff; /* Light blue color on hover */
+}
+
+footer .text-dark {
+    color: #343a40; /* Dark text color */
+}
+
+footer .bg-dark {
+    background-color: #002d72; /* Very dark blue background */
+}
