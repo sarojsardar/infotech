@@ -11,15 +11,10 @@ function LocalBD() {
       <div className="container">
           <div className="row text-center">
            {Student.map((student) => (
-            <div key={student.id} className="col-md-4 mb-4">
+            <div key={student.id} className="col-md-3 mb-4">
               <div className="card">
              
-              <img
-                src={student.image}
-                className="card-img-top"
-                alt={student.names}
-                style={{ height: '200px', objectFit: 'cover' }}
-              />
+              <img src={student.image} alt={student.names} style={{ width: '200px', objectFit: 'cover' }} />
                 <div className="card-body">
                   <h5 className="card-title">
                   <Link to={`/studentdetails/${student.id}`}>
